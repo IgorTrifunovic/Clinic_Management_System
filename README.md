@@ -30,9 +30,9 @@ Secure messaging between doctors and patients.
 Appointment confirmation and reminders via notification/email/SMS.
 
 ### Tech Stack:
-Backend: Python (Django/Flask)
-Database: PostgreSQL/MySQL
-Front-end: HTML, CSS, Javascript (optional: ReactJS, AngularJS)
+- Backend: Python (Django)
+- Database: PostgreSQL
+- Front-end: HTML, CSS, JS/TS (React)
 
 
 
@@ -58,12 +58,6 @@ Secure storage of patient data will be a primary consideration (HIPAA compliance
 > Audit Controls: Log and monitor all access attempts and activities related to PHI. This helps identify and investigate any unauthorized access or potential breaches.
 > Integrity Controls: Implement mechanisms to ensure the accuracy and completeness of PHI. This may include data validation, backup procedures, and disaster recovery plans.
 > 
-> **Technical Safeguards:**
-> 
-> Firewall and Network Security: Implement firewalls to restrict unauthorized access to the system and regularly update security patches for operating systems and software.
-> Anti-malware: Use robust anti-malware software and conduct regular scans to protect against cyber threats.
-> Device Security: Enforce strong password policies and implement device encryption for laptops, tablets, and other devices accessing PHI.
-> Risk Assessment and Risk Management: Conduct periodic risk assessments to identify vulnerabilities and implement mitigation strategies.
 > 
 > **Resources:**
 > US Department of Health and Human Services (HHS) HIPAA Security Rule: https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html
