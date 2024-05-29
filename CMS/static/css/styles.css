@@ -1,0 +1,111 @@
+/* Static/css/styles.css */
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Appointment Detail Styles */
+.appointment-detail {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.appointment-detail p {
+    margin: 5px 0;
+}
+
+/* Notes Styles */
+.notes {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.notes h3 {
+    margin-top: 0;
+}
+
+.note-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.note-list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.note-list li:last-child {
+    border-bottom: none;
+}
+
+.note-list li strong {
+    color: #333;
+}
+
+/* Form Styles */
+.form-container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.form-container h3 {
+    margin-top: 0;
+}
+
+.form-container form {
+    margin-top: 10px;
+}
+
+.form-container form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-container form input[type="text"],
+.form-container form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-container form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container form button:hover {
+    background-color: #555;
+}
