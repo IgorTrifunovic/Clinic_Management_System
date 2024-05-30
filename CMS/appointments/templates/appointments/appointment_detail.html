@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Appointment Detail</h2>
+<p>Patient: {{ appointment.patient.username }}</p>
+<p>Doctor: {{ appointment.doctor.username }}</p>
+<p>Date: {{ appointment.date }}</p>
+<p>Reason: {{ appointment.reason }}</p>
+
+<h3>Notes</h3>
+<ul>
+    {% for note in notes %}
+        <li><strong>{{ note.author.username }}</strong> ({{ note.created_at }}): {{ note.content }}</li>
+    {% endfor %}
+</ul>
+
+<h3>Add a Note</h3>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Add Note</button>
+</form>
+{% endblock %}
