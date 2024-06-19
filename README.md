@@ -82,3 +82,15 @@ Use modular and well-documented code for easier maintenance and future developme
 Telemedicine capabilities for remote consultations.
 Reporting and analytics module for clinic performance insights.
 Note: This is a high-level overview of the project. Each section can be further elaborated with detailed functionalities, data models, and user stories during the development process.
+
+
+### RUN BE APP
+```
+python manage.py makemigrations
+python manage.py migrate
+
+python manage.py createsuperuser 
+(if you need to create superuser)
+
+python manage.py runserver
+```

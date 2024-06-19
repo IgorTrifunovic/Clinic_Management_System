@@ -109,3 +109,7 @@ h1 {
 .form-container form button:hover {
     background-color: #555;
 }
+
+main {
+    margin-left: 60px;
+  }
