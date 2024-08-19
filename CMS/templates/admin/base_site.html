@@ -1,0 +1,11 @@
+{% extends 'admin/base.html' %}
+{% load static %}
+
+{% block branding %}
+    <h1 id="head">
+        <img src="{% static 'img/Wellspring_Logo.png' %}" alt="Wellspring Health Center" height="80" width="90" class="brand_img"> CMS Admin Panel
+    </h1>
+{% endblock %}
+{% block extrastyle %}
+<link rel="stylesheet" href="{% static 'css/admin.css' %}"
+{% endblock %}

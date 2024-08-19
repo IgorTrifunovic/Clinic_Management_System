@@ -1,0 +1,25 @@
+#header {
+    height: 60px;
+    background: #60e3df;
+}
+
+#branding h1 {
+    color: #10284e;
+}
+
+#user-tools,
+#user-tools * {
+    color: #10284e !important;
+    font-weight: bold !important;
+}
+
+#user-tools a,
+#user-tools button {
+    border-bottom: 1.5px solid #10284e !important;
+}
+
+div.breadcrumbs,
+div.breadcrumbs a {
+    background: #10284e;
+    color: #60e3df
+}
